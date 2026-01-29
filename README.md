@@ -7,3 +7,6 @@
 
 ## ML Denoise Cifar10
 - Uses Cifar10 dataset to try and implement a denoising autoencoder onto a color image and then display the differences between a noisy and denoised image. 
+
+## ML Denoise GW 2
+- CURRENT PROJECT: attempting to remove noise from a GW spectrogram and leave as much of the wave signal intact as possible. 
