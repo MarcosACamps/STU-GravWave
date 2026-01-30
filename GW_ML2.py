@@ -25,9 +25,9 @@ import numpy as np
 import seaborn as sns
 
 # %% Grab Dataset
-train_dir = 'C:/Users/Marcos/ligoData/Practice_Directory/train'
-val_dir = 'C:/Users/Marcos/ligoData/Practice_Directory/val_dir'
-test_dir = 'C:/Users/Marcos/ligoData/Practice_Directory/test'
+train_dir = 'add training folder directory'
+val_dir = 'validation directory'
+test_dir = 'test directory'
 
 train = tf.keras.utils.image_dataset_from_directory(train_dir, labels = 'inferred')
 val = tf.keras.utils.image_dataset_from_directory(val_dir, labels = 'inferred')
@@ -147,4 +147,5 @@ plt.show()
 # predicted_labels = tf.concat([item for item in y_pred], axis = 0)
 
 # print('Confusion Matrix')
+
 # print(confusion_matrix(test.classes, y_pred))
