@@ -22,7 +22,7 @@ import requests
 
 
 # Specify the directory path where you want to save the file
-directory = 'C:/Users/Marcos/.spyder-py3/GW_Data/Q_Transform/'
+directory = '--directory--'
 
 # Check if the directory exists, and create it if it doesn't
 if not os.path.exists(directory):
@@ -78,3 +78,4 @@ for i in range(len(detector_list)):
 
 
         print(f"File '{file_name}' saved to '{directory}'.")
+
