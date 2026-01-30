@@ -41,9 +41,9 @@ epochs = 5
 noise_factor = 1
 inputShape = (256,256)
 
-train_dir = 'C:/Users/Marcos/ligoData/Practice_Directory/train'
-val_dir = 'C:/Users/Marcos/ligoData/Practice_Directory/val_dir'
-test_dir = 'C:/Users/Marcos/ligoData/Practice_Directory/test'
+train_dir = 'directory'
+val_dir = 'directory'
+test_dir = 'directory'
 
 train_data_clean= tf.keras.utils.image_dataset_from_directory(train_dir, labels = 'inferred')
 val = tf.keras.utils.image_dataset_from_directory(val_dir, labels = 'inferred')
@@ -211,5 +211,6 @@ for i in range(n):
     ax = plt.subplot(2, n, i + n + 1)
     plt.imshow(decoded_imgs[i])
     ax.axis('off')
+
 
 plt.show()
